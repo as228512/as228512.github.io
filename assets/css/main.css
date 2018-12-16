@@ -3395,6 +3395,10 @@
 		position: relative;
 		text-align: center;
 	}
+	
+	#banner .inner {
+		height: 38em;
+	}
 
 		#banner h2 {
 			-moz-transform: scale(1);
@@ -3411,6 +3415,7 @@
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+			margin-bottom: 9em;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3441,6 +3446,7 @@
 			}
 
 		#banner p {
+			/* margin-bottom: 25em; */
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 		}
