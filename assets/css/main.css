@@ -1922,15 +1922,20 @@
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #cc0000;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #fddc00;
 		}
 
 		.icon.style3 {
 			color: #76ddff;
+		}
+		
+		.svg-inline--fa {
+			padding: .5em;
+			vertical-align: -1em;
 		}
 
 /* Image */
@@ -2793,6 +2798,7 @@
 				}
 
 			}
+			
 
 		.wrapper.style2 {
 			background-color: #2e3842;
@@ -3147,7 +3153,7 @@
 			position: fixed;
 			top: 0;
 			width: 100%;
-			z-index: 10001;
+			z-index: 1;
 		}
 
 	#menu {
