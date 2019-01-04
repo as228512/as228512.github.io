@@ -1879,7 +1879,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			/* font-family: FontAwesome; */
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -1905,12 +1905,12 @@
 		}
 
 			.icon.major:before {
-				-moz-transform: rotate(45deg);
+				/* -moz-transform: rotate(45deg);
 				-webkit-transform: rotate(45deg);
 				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
+				transform: rotate(45deg); */
 				display: inline-block;
-				font-size: 1.5em;
+				font-size: 2.2em;
 			}
 
 			@media screen and (max-width: 736px) {
